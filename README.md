@@ -1,6 +1,6 @@
 # Jalipod
 
-Jalibut is an open-source "search ahead" based directory that can be used to showcase any collection of entities. Try it out [here](https://darshandsoni.com/jalipod/).
+Jalipod is an open-source "search ahead" based directory that can be used to showcase any collection of entities. Try it out [here](https://darshandsoni.com/jalipod/).
 
 ## Why?
 
