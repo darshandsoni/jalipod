@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jalipod | A searchable podcast collection</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+    <!-- Objects -->
+    <script type=text/javascript src="objects.js"></script>
+    <script type=text/javascript>
+      window.onload = function() { document.getElementsByClassName("quicksearch")[0].focus(); }
+    </script>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <img src="logo.svg" style="max-width:300px;" align:left alt="jalibut">
+      </div>
+    </div>
+    <div class="container" style="align:center;">
+      <a href="https://github.com/darshandsoni/jalipod" class="btn btn-default btn-lg">View on GitHub</a>
+      <h3>Jalipod is an open-source, "search ahead" based, growing collection of curated podcasts.</h3>
+      <input name="q" type="text" class="quicksearch" accesskey="s" placeholder="Start typing to search by title, language or theme. Regex is supported." autocomplete="off">
+      <div class="grid">
+	<div id="content"></div>
+      </div>
+
+    </div>
+    <footer>
+      <div class="container">
+        <h4>Powered by <a href="http://darshandsoni.com/jalibut" target="_blank">Jalibut</a></h4>
+    </div>
+    </footer>
+    <script type=text/javascript src="quicksearch.js"></script>
+  </body>
+</html>
